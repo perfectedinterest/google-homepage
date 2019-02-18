@@ -1,3 +1,11 @@
+html {
+  position: absolute;
+}
+
+body {
+  background-color: #ffffff;
+}
+
 li {
   font-size: 12px;
   list-style-type: none;
@@ -5,18 +13,17 @@ li {
 }
 
 .about {
-  width: auto;
   padding: 0;
 
 }
 
 .store {
   margin: 0px;
-  padding: 10px;
-  width: 25px;
 }
 
 .gmail {
+  position: relative;
+  right: 150px;
 }  
 
 a:link {
@@ -37,13 +44,65 @@ a:hover {
 }
 
 .logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  position: relative;
+  top: 140px;
+  left: 825px;
+  
 }
+
 
 .search {
   display: block;
   margin-left: auto;
   margin-right: auto;
- }
+  background-color: #f1f1f1;
+  border: none;
+  color: #757575;
+  font-family: roboto;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-decoration: none;
+  margin: 4px 2px;
+}
+
+.search:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #b3b3b3;
+  color: black;
+  cursor: pointer;
+
+}
+
+.searchbar {
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: #c8c8c8;
+  padding: 12px;
+  box-shadow: 2px 2px 1px #e3e3e3;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.searchbar:hover {
+  box-shadow: 4px 4px 2px #e3e3e3;
+}
+
+.search1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.search2 {
+  position: absolute;
+  top: 5px;
+  left: 1000px;
+}
