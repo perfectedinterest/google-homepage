@@ -1,31 +1,35 @@
-html {
-  position: absolute;
-}
-
 body {
   background-color: #ffffff;
+}
+
+.header {
+position: absolute;
 }
 
 li {
   font-size: 12px;
   list-style-type: none;
-  display: inline;
 }
 
 .about {
-  padding: 0;
-
+  top: 10px;
+  left: 10px;
 }
 
 .store {
-  margin: 0px;
+  top: 10px;
+  left: 60px;
 }
 
 .gmail {
-  position: relative;
-  right: 150px;
+  top: 10px;
+  left: 1650px;
 }  
 
+.images {
+  top: 10px;
+  left: 1700px;
+}
 a:link {
   color: #3f3f3f;
   text-decoration: none;
@@ -44,8 +48,8 @@ a:hover {
 }
 
 .logo {
-  position: relative;
-  top: 140px;
+  position: absolute;
+  top: 180px;
   left: 825px;
   
 }
@@ -76,19 +80,16 @@ a:hover {
 }
 
 .searchbar {
-  width: 20%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 30%;
+  position: absolute;
+  top: 300px;
+  left: 665px;
   border-style: solid;
   border-width: 1px;
   border-radius: 2px;
   border-color: #c8c8c8;
   padding: 12px;
   box-shadow: 2px 2px 1px #e3e3e3;
-  position: relative;
-  top: 0;
-  left: 0;
 }
 
 .searchbar:hover {
@@ -96,13 +97,22 @@ a:hover {
 }
 
 .search1 {
-  position: relative;
-  top: 0;
-  left: 0;
+  position: absolute;
+  top: 350px;
+  left: 815px;
 }
 
 .search2 {
   position: absolute;
-  top: 5px;
-  left: 1000px;
+  top: 350px;
+  left: 960px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #f2f2f2;
 }
